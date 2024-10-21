@@ -40,6 +40,14 @@ h4 {
     color: #fff;
 }
 
+
+
+/* Nav */
+
+
+/* Headers */
+
+
 /* Page Headers */
 
 .headerWrap {
@@ -49,7 +57,6 @@ h4 {
 }
 
 .header {
-    margin: 5px 0 25px 25px;
     font-weight: bold;
     position: relative;
     display: inline-block;
@@ -72,18 +79,6 @@ h4 {
 }
 
 
-/* Nav */
-
-nav img {
-    height: 35px;
-    width: 35px;
-}
-
-
-
-/* Header */
-
-
 /* Jumbotron */
 
 .jumbotron-container {
@@ -100,13 +95,12 @@ nav img {
     background-color: rgba(73, 61, 61, 0.452);
     font-size: 130%;
     position: absolute;
-    top: 30px;
+    margin: 10px;
     left: 30px;
-    width: 30%;
+    top: 30px;
+    width: 90%;
     min-height: 200px;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-bottom: 30px;
+    padding: 30px 10px 30px 10px;
 }
 
 #jumbo-text button {
@@ -134,7 +128,6 @@ nav img {
 
 .card {
     margin: 2% auto;
-    width: 22rem;
     border: 1px solid #000;
     box-shadow: 5px 5px #00000086;
     border-radius: 5px;
@@ -145,6 +138,18 @@ nav img {
     text-decoration: underline;
 }
 
+
+
+/* Quotes */
+
+.quote {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.quote img {
+    margin-right: 15px;
+}
 
 /* Divider */
 .block-divider {
@@ -181,34 +186,91 @@ nav img {
 
 
 
-/* Test */
+/* Media Queries */
 
+@media screen and (min-width: 0px) {
+    
+    #jumbo-text{
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        margin: 0;
+    }
 
-.headerWrap {
-    text-align: center;
-    overflow: hidden;
-    margin: 10px;
+    .card{
+        font-size: 14px;
+        min-width: 250px;
+    }
+
+    .card-title {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .card a {
+        font-size: 150%;
+    }
+
+    .card a i {
+        font-size: 150%;
+    }
 }
 
-.header {
-    margin: 5px 0 25px;
-    font-weight: bold;
-    position: relative;
-    display: inline-block;
-    color: #2876eb;
-    position: relative;
+@media screen and (min-width: 768px) {
+    #jumbo-text{
+        width: 60%;
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        margin: 10px;
+    }
+
+    .card{
+        min-width: 300px;
+        font-size: 18px;
+        min-width: 268;
+    }
+
+    .card-title {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    .card a {
+        font-size: 150%;
+    }
+
+    .card a i {
+        font-size: 150%;
+    }
+
 }
 
-.header:before {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 100%;
-    left: 0vw;
-    height: 10px;
-    background:
-        linear-gradient(#2876eb, #2876eb) top,
-        linear-gradient(#2876eb, #2876eb) bottom;
-    background-size: 100% 6px, 100% 2px;
-    background-repeat: no-repeat;
+@media screen and (min-width: 992px) {
+    #jumbo-text{
+        width: 25%;
+    }
+
+    .card{
+        min-width: 400px;
+        max-width: 800px;
+        font-size: 22px;
+    }
+
+    .card-title {
+        font-size: 28px;
+        padding-bottom: 5px;
+    }
+
+    .card a {
+        font-size: 150%;
+    }
+
+    .card a i {
+        font-size: 150%;
+    }
+
+    .quotes {
+        justify-content: space-evenly;
+    }
+
 }
