@@ -42,14 +42,33 @@ h4 {
 
 /* Page Headers */
 
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
+.headerWrap {
     text-align: center;
+    overflow: hidden;
+    margin: 10px;
 }
 
-.page-header h2 {
-    margin-top: 0;
+.header {
+    margin: 5px 0 25px 25px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    color: #2876eb;
+    position: relative;
+}
+
+.header:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 100%;
+    left: 0vw;
+    height: 10px;
+    background:
+        linear-gradient(#2876eb, #2876eb) top,
+        linear-gradient(#2876eb, #2876eb) bottom;
+    background-size: 100% 6px, 100% 2px;
+    background-repeat: no-repeat;
 }
 
 
