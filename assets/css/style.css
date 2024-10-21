@@ -2,7 +2,11 @@
 
 /* Color Override */
 .bg-color-navbar {
-    background-color: #00c4e4;
+    background-color: #38E4FF;
+}
+
+.bg-color-footer {
+    background-color: #38E4FF;
 }
 
 
@@ -10,7 +14,7 @@
 /* Buttons */
 
 .btn--color-blue {
-    background-color: #368bbd;
+    background-color: #165B83;
 }
 
 .btn--text-white {
@@ -54,6 +58,23 @@ nav img {
     position: relative;
 }
 
+#jumbo-text {
+    background-color: rgba(73, 61, 61, 0.452);
+    font-size: 130%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 30%;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+#jumbo-text button {
+    position: relative;
+}
+
 .jumbotron-container h1 {
     color: #fff;
 }
@@ -80,4 +101,18 @@ nav img {
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+/* Footer */
+#socials {
+    padding: 20px 0;
+    font-size: 160%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#socials i {
+    font-size: 150%;
+    padding: 2%;
+    color:#0E405D;
 }
