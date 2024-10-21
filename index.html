@@ -15,6 +15,32 @@
 </head>
 
 <body>
+    <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel">Matters of Mind Newsletter</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Sign up for our Monthly newsletter with all the tips and trick to help your mind stay healthy and
+                        happy!</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- NavBar -->
     <header>
         <nav class="navbar navbar-expand-lg bg-color-navbar">
@@ -42,29 +68,87 @@
             </div>
         </nav>
     </header>
-    <!-- /NavBar -->
 
 
     <!-- Jumbotron -->
     <div class="container-fluid jumbotron-container">
-        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron" id="jumbo-text">
                     <h1 class="jumbotron-header">Mental Health Matters</h1>
                     <p>Take care of your mind like you would your body.</p>
-                    <button class="btn btn-lg btn--color-blue btn--text-white" data-toggle="modal"
-                        data-target="#signUpModal">Sign
-                        Up!</button>
+                    <button class="btn btn-lg btn--color-blue btn--text-white" data-bs-toggle="modal"
+                        data-bs-target="#signUpModal">Subscribe to our Newsletter!</button>
                 </section>
             </div>
         </div>
     </div>
-    <!-- /Jumbotron  -->
 
 
-    <main> Main Content </main>
+    <main>
+        <!-- Cards -->
+        <div class="container-fluid card-container">
+            <div class="row">
+                <div class="col-12 text-center headerWrap">
+                    <h2 class="header">Header</h2>
+                </div>
+            </div>
+            <div class="row card-container">
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mental Health Tips</h5>
+                            <ul>
+                                <li><strong>Stay Active – </strong>Regular exercise boosts mood and reduces stress.</li>
+                                <li><strong>Get Enough Sleep – </strong>Prioritize rest for mental clarity and emotional
+                                    balance.</li>
+                                <li><strong>Connect with Others – </strong>Build strong, supportive relationships.</li>
+                                <li><strong>Eat Well – </strong> A balanced diet supports brain health and energy
+                                    levels.</li>
+                                <li><strong>Practice Mindfulness – </strong>Take time to relax and focus on the present
+                                    moment.</li>
+                            </ul>
+                            <a href="#" class="btn btn--color-blue">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Common Issues</h5>
+                            <p class="card-text">Common mental health issues people face include anxiety disorders,
+                                depression, and chronic stress, which can interfere with daily life and relationships,
+                                often affecting both mental and physical well-being. Conditions like bipolar
+                                disorder, characterized by extreme mood swings, can further complicate mental health.
+                                Addressing these issues through awareness and support is essential to promoting overall
+                                well-being.</p>
+                            <a href="#" class="btn btn--color-blue">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Managing Stress</h5>
+                            <p class="card-text">Managing stress involves practicing healthy habits such as regular
+                                physical activity, which helps release tension, and mindfulness techniques like deep
+                                breathing or meditation to stay calm. Prioritizing sleep, maintaining a balanced diet,
+                                and staying organized with time management can also reduce stress. Additionally, talking
+                                about your concerns with friends, family, or a counselor can provide emotional support
+                                and help you cope more effectively.</p>
+                            <a href="#" class="btn btn--color-blue">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
+
+    <!-- Footer -->
     <footer class="bg-color-footer">
         <div class="container">
             <div class="row">
@@ -91,8 +175,7 @@
                     </li>
                     <li class="list-inline-item">
                         <button class="btn btn-lg btn--color-blue btn--text-white " data-toggle="modal"
-                        data-target="#signUpModal">Sign
-                        Up to our Newsletter</button>
+                            data-target="#signUpModal">Subscribe to our Newsletter!</button>
                     </li>
                 </ul>
             </div>
