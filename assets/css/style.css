@@ -251,6 +251,25 @@ h4 {
 }
 
 @media screen and (min-width: 992px) {
+    
+    .navbar {
+        height: 80px;
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+    
     #jumbo-text{
         width: 40%;
     }
