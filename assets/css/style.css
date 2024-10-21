@@ -1,12 +1,36 @@
 /* Fonts */
 
 /* Color Override */
+.bg-color-navbar {
+    background-color: #00c4e4;
+}
 
+
+
+/* Buttons */
+
+.btn--color-blue {
+    background-color: #368bbd;
+}
+
+.btn--text-white {
+    color: #fff;
+}
 
 /* Page Headers */
 
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
 
-/* Header */
+.page-header h2 {
+    margin-top: 0;
+}
+
+
+/* Nav */
 
 nav img {
     height: 35px;
@@ -15,8 +39,45 @@ nav img {
 
 
 
-/* Carousel */
+/* Header */
 
-.carousel-item img{
-    height: 800px;
+
+/* Jumbotron */
+
+.jumbotron-container {
+    height: 75vh;
+    background: url('../images/dustin-humes-gQoYixf4zC8-unsplash.jpg') no-repeat bottom right fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron-container h1 {
+    color: #fff;
+}
+
+
+.jumbotron-container p {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+/* Divider */
+.block-divider {
+    border: 1px solid #fff;
+}
+
+
+
+
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
