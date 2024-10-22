@@ -11,7 +11,7 @@
     </script>
 
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <title>Matters of Mind</title>
+    <title>Matters of Mind | Home</title>
 </head>
 
 <body>
@@ -42,69 +42,66 @@
 
 
     <!-- NavBar -->
-    <header>
-        <div class="container-fluid alert-container">
-            <!-- <div class="row">
-                <div class="col-12">
-                    <div class="site-wide-alert alert alert-warning">
-                        <strong>Need Help Now? </strong><a href=""> Click Here</a>
-                    </div>
-                </div>
-            </div> -->
-            <nav class="navbar navbar-expand-lg bg-color-navbar">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg" alt="Logo" width="30"
-                            height="24" class="d-inline-block align-text-top rounded-circle">
-                        <strong>Matters of Mind</strong>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item bg-color-navbar">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    <nav class="navbar navbar-expand-lg bg-color-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <strong>Matters of Mind</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#information-cards">Information</a></li>
+                            <li><a class="dropdown-item" href="#quote-cards">Quotes</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
                             </li>
-                            <li class="nav-item bg-color-navbar">
-                                <a class="nav-link active" aria-current="page" href="index.html">Contact Us</a>
-                            </li>
-                            <li class="nav-item bg-color-navbar">
-                                <a class="nav-link active" aria-current="page" href="index.html">Support Sites</a>
-                            </li>
+                            <li><a class="dropdown-item" href="support.html">Support Sites</a></li>
                         </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-
-    <!-- Jumbotron -->
-    <div class="container-fluid jumbotron-container">
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron" id="jumbo-text">
-                    <h1 class="jumbotron-header">Mental Health Matters</h1>
-                    <p>Take care of your mind like you would your body.</p>
-                    <button class="btn btn-lg btn--color-blue btn--text-white" data-bs-toggle="modal"
-                        data-bs-target="#signUpModal">Subscribe to our Newsletter!</button>
-                </section>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a href="https://www.nhs.uk/nhs-services/mental-health-services/"
+                        class="btn btn--color-blue btn--text-white" target="_blank"
+                        aria-label="Opens NHS mentale health services in new tab">Need Help?</a>
+                </form>
             </div>
         </div>
-    </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <header>
+        <div class="container-fluid jumbotron-container">
+            <div class="row">
+                <div class="col-12">
+                    <section class="callout jumbotron" id="jumbo-text">
+                        <h1 class="jumbotron-header">Mental Health Matters</h1>
+                        <p>Take care of your mind like you would your body.</p>
+                        <button class="btn btn-lg btn--color-blue btn--text-white" data-bs-toggle="modal"
+                            data-bs-target="#signUpModal">Subscribe to our Newsletter!</button>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </header>
 
 
     <main>
         <!-- Cards -->
         <div class="container-fluid card-container bg-cards">
-            <div class="row">
-                <div class="col-12 text-center headerWrap">
-                    <h2 class="header">Header</h2>
-                </div>
-            </div>
-            <div class="row card-container">
+            <div class="row card-container" id="information-cards">
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
@@ -120,7 +117,10 @@
                                     moment.</li>
                             </ul>
                             <div class="text-center">
-                                <a href="#" class="btn btn--color-blue"><i class="fa-solid fa-book"></i> Learn More</a>
+                                <a href="https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health"
+                                    target="_blank"
+                                    aria-label="Opens National Institute of mental health page in a new tab"
+                                    class="btn btn--color-blue"><i class="fa-solid fa-book"></i> Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,10 @@
                                 Addressing these issues through awareness and support is essential to promoting overall
                                 well-being.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn--color-blue"><i class="fa-solid fa-book"></i> Learn More</a>
+                                <a href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders"
+                                    target="_blank"
+                                    aria-label="Opens World Health Organization mental disorders in a new tab"
+                                    class="btn btn--color-blue"><i class="fa-solid fa-book"></i> Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +155,9 @@
                                 about your concerns with friends, family, or a counselor can provide emotional support
                                 and help you cope more effectively.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn--color-blue"><i class="fa-solid fa-brain"></i> Learn
+                                <a href="https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/tips-to-reduce-stress/"
+                                    target="_blank" aria-label="Opens NHS Stress buster page in a new tab"
+                                    class="btn btn--color-blue"><i class="fa-solid fa-brain"></i> Learn
                                     More</a>
                             </div>
                         </div>
@@ -164,7 +169,7 @@
         <!-- Quotes -->
         <div class="container-fluid bg-quotes">
             <div class="quotes-container">
-                <section class="container-fluid quote-cards">
+                <section class="container-fluid quote-cards" id="quote-cards">
                     <div class="row">
                         <div class="col-12 headerWrap">
                             <h2 class="header">Quotes:</h2>

@@ -352,7 +352,11 @@ h4 {
 
     #jumbo-text h1 {
         font-size: 64px;
-        
+    }
+
+    .card-title {
+        font-size: 32px;
+        font-weight: 800;
     }
 
     .quote-text p { 
