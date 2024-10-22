@@ -8,6 +8,7 @@ body{
     padding: 0;
     background-color: #fafafa;
     font-family: "Inter", sans-serif;
+    background: linear-gradient(28deg, rgba(252,176,161,1) 0%, rgba(216,153,193,1) 24%, rgba(0,175,235,1) 100%);
 }
 
 h1,
@@ -20,13 +21,25 @@ h4 {
 
 /* Color Override */
 .bg-color-navbar {
-    background-color: #38E4FF;
+    background-color: #5ea5d9;
 }
 
 .bg-color-footer {
-    background-color: #38E4FF;
+    background-color: #e4a1b6;
 }
 
+.bg-quotes {}
+
+.bg-cards {}
+
+
+.footer-link-color {
+    color: #000;
+}
+
+.btn-transparent {
+    background-color: transparent;
+}
 
 
 /* Buttons */
@@ -40,10 +53,23 @@ h4 {
     color: #fff;
 }
 
+.btn-footer {
+    font-size: 18px;
+    text-decoration: underline;
+}
 
 
 /* Nav */
+.site-wide-alert {
+    margin: 0;
+    padding-right: 50px;
+    text-align: center;
+}
 
+.alert-container {
+    margin: 0;
+    padding: 0;
+}
 
 /* Headers */
 
@@ -62,6 +88,7 @@ h4 {
     display: inline-block;
     color: #2876eb;
     position: relative;
+    margin: 50px 0;
 }
 
 .header:before {
@@ -142,9 +169,17 @@ h4 {
 
 /* Quotes */
 
+.quotes-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
 .quote {
     display: flex;
-    margin-bottom: 10px;
+    margin: 20px auto;
+    max-width: 600px;
 }
 
 .quote img {
@@ -178,10 +213,13 @@ h4 {
 #socials i {
     font-size: 150%;
     padding: 2%;
-    color: #0E405D;
+    color: #002238;
 }
 
-
+.footer-modal { 
+    align-self: left;
+    margin: auto;
+}
 
 
 
