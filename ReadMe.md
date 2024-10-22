@@ -120,6 +120,20 @@ Properly attribute any external code sources used in the project (excluding GitH
   Main Header: Inspired from our [Love running project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
 **Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
 
+## Credits
+
+### Images
+
+- Hero image from [Dustin Humes Unsplash](https://unsplash.com/photos/snow-covered-mountain-under-cloudy-sky-during-daytime-gQoYixf4zC8?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+ - [Lisa Olivera](https://www.instagram.com/_lisaolivera/p/C-VnRgNvvDj/?hl=en&img_index=1)
+ - [Dan Millman](https://elitemanmagazine.com/way-peaceful-warrior-dan-millman-episode-87/)
+ - [Glenn Close](https://en.wikipedia.org/wiki/Glenn_Close#/media/File:Glenn_Close_-_Guardians_of_the_Galaxy_premiere_-_July_2014_(cropped).jpg)
+
+
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+
+Create pages for the cards to link to with more information about the topics provided.
+Create a carousel hero and change the background colors according to the picture being displayed or different but similar pictures
+Add a functional "Contact Us" button 
+Add functionality to the Modal
+Rearange quotes layout
