@@ -81,7 +81,7 @@ h4 {
     font-weight: bold;
     position: relative;
     display: inline-block;
-    color: #2876eb;
+    color: #141414;
     position: relative;
     margin: 50px 0;
 }
@@ -94,8 +94,8 @@ h4 {
     left: 0vw;
     height: 10px;
     background:
-        linear-gradient(#2876eb, #2876eb) top,
-        linear-gradient(#2876eb, #2876eb) bottom;
+        linear-gradient(#444444, #444444) top,
+        linear-gradient(#444444, #444444) bottom;
     background-size: 100% 6px, 100% 2px;
     background-repeat: no-repeat;
 }
@@ -212,7 +212,6 @@ h4 {
 }
 
 .footer-modal { 
-    align-self: left;
     margin: auto;
 }
 
@@ -247,6 +246,17 @@ h4 {
     .card a i {
         font-size: 150%;
     }
+    
+    .quote {
+        display: flex;
+        margin: 20px auto;
+        max-width: 600px;
+        font-size: 16px;
+    }
+    
+    .quote img {
+        margin-right: 15px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -266,7 +276,6 @@ h4 {
     .card{
         min-width: 300px;
         font-size: 18px;
-        min-width: 268;
     }
 
     .card-title {
@@ -344,5 +353,19 @@ h4 {
     #jumbo-text h1 {
         font-size: 64px;
         
+    }
+
+    .quote-text p { 
+        font-size: 140%;
+    }
+
+    .quote {
+        display: flex;
+        margin: 20px auto;
+        max-width: 800px;
+    }
+    
+    .quote img {
+        margin-right: 15px;
     }
 }

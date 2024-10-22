@@ -130,6 +130,11 @@ Provide any additional insights gained during the project and thoughts on the ov
 
 ## Code Attribution
 Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
+  Bootstrap: Modal, Navbar, Cards, Buttons, Page Structure
+  FontAwesome: Text Icons and social media Icons
+  H2s : Post found on [StackOverflow](https://stackoverflow.com/questions/55233092/css-pseudo-element-underline-on-centered-header)
+  Jumbotron: Based on our [Building with Bootstrap](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/03-cleaning_up_our_content)
+  Main Header: Inspired from our [Love running project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
 **Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
 
 ## Future Improvements
