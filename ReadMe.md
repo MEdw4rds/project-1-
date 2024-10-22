@@ -3,130 +3,113 @@
 ## Overview
 
 ### Purpose
-A brief description of the project's purpose, what it aims to achieve, and the value it provides to the users.  
-**Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
+The request was to create a website on mental health awareness that seeks to provide accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress.
+I used this as my constant benchmark throughout the creating of the website, paying particular attention to, ease of use and clarity of message. 
+I chose to seperate out the key areas easy to navigate
 
 ### Target Audience
-Identify the target audience for your website and explain why this audience will benefit from the project.  
-**Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
+As the request was for beginner level information I understood the target audience was people with limited to no existing knowledge of mental health issues.
 
 ## User Stories
 
 ### Must-Have User Stories
-- **User Story 1:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include all prioritized must-have features)  
-**Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
+- **User Story 1:** Hero Section with a positive messsage.  
+  **Acceptance Criteria:** Met with a nice image and positive message.
+- **User Story 2:** Calming colors.  
+  **Acceptance Criteria:** Nice selection of colors that create a calming feeling for those visiting the site.
 
 ### Should-Have User Stories
-- **User Story 1:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **User Story 1:** Navigation Bar.  
+  **Acceptance Criteria:** A standard structure to aid navigation.
+- **User Story 2:** Adaptable layout.  
+  **Acceptance Criteria:** Easy to use on multiple device sizes.
 
-(Include all prioritized should-have features)  
-**Guidance:** Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
 
 ### Could-Have User Stories
-- **User Story 1:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **User Story 1:** Videos for quotes and more information on internal pages.  
+  **Acceptance Criteria:** Impliment videos alongside quotes and have links on the cards go to pages inside the site for more information instead of externally.
+- **User Story 2:** Carousel.  
+  **Acceptance Criteria:** Having a changing hero image showing various images.
 
-(Include any could-have features considered for future enhancements)  
-**Guidance:** Document any optional features that are nice to have but not essential.
 
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
-**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
+Colors were specifically chosen to match the image used in the jumbotron to have a calm, warm feeling.
+
+The fonts were picked from [fontpair](https://www.fontpair.co/all) as nice readable fonts and icons where added from [FontAwesome](https://fontawesome.com/).
+
+The Layout is just simple, the information cards directy under the jumbotron is because most people that search for a site would just like to see what they came to that website for and if they wish to learn more the buttons under each of the topics will take them to the relivant place. 
+For the navigation bar it's simple however there is a button on the right hand side for people who might be searching for help and this might have been what they stumbled upon first.
+
+
+![Home Page Wireframe](assets/images/Screenshot%202024-10-22%20113116.png)
+
+![Mobile Wireframe](assets/images/Screenshot%202024-10-22%20122324.png)
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
-
-## AI Tools Usage
-
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
+All the text on the page has been checked using [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure it can be seen correctly
+All links have aria labels attributed to them.
+All images have their Alt tag set.
 
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
+- **Feature 1:** Hero Section: Added a relevant large Hero Title and short positive message.
+- **Feature 2:** Used calming warm colors from hero image.
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
+- **Feature 1:** Added a simple standard navigation bar to move around the side easily.
+- **Feature 2:** Made an adaptive layout that will change to suit the device size of the user.
 
 ### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
+- **Feature 1:** 
 
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
-
-## AI Tools Usage
-
-### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
 
 ## Testing and Validation
 
 ### Testing Results
+I attempted to start from mobile first and work up screen sizes, with bootstrap it's rather simple as most of the moving is done for you so long as you set the columns correctly. (Foreshadowing)
+Most issues I ran into where columns not being defined for particular screen sizes.
+I also added media queries to change the size of the text dependant on screen size. 
 Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+I also frequently used the eyedropper tool to test the background color againt the text color for WCAG.
 
 ### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
+I just copied my code into [W3C HTML](https://validator.w3.org/) [W3C CSS](https://jigsaw.w3.org/css-validator/) to check.
 
-## AI Tools Usage
+### Errors:
 
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
+### HMTL
+Stray end li and i tag. Simply removed from code.
+Warning: "Consider using the h1 element as a top-level heading only" Seems to have occured due to the H1 being inside multiple divs and a section.
+
+### CSS
+
+Forgot to add a unit measure to a max-width: 268; just needed to add px to it.
 
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+Went into the project repository, Settings -> Pages.
+Selected main branch and pressed save.
 
 ## AI Tools Usage
 
 ### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
+I mostly used AI for the content of the page as I'm not the best with words I didn't use any for code.
 
 ## Reflection on Development Process
 
 ### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
+It writes nice short paragraphs.
 
 ### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
+Trying to describe what I want from it.
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+It was just a fun project that I went about focusing on what was asked of me rather than what I thought I could do.
+The main goal of this was to stick as closly to what was asked as possible to prevent me from trying to do things I didn't really know how and wasting time before actually getting done what needed to be and I believe I did okay at that.
 
 ## Code Attribution
 Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
