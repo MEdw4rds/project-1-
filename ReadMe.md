@@ -118,7 +118,6 @@ Properly attribute any external code sources used in the project (excluding GitH
   H2s : Post found on [StackOverflow](https://stackoverflow.com/questions/55233092/css-pseudo-element-underline-on-centered-header)
   Jumbotron, Quotes: Based on our [Building with Bootstrap](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/03-cleaning_up_our_content)
   Main Header: Inspired from our [Love running project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
 
 ## Credits
 
@@ -137,3 +136,4 @@ Create a carousel hero and change the background colors according to the picture
 Add a functional "Contact Us" button 
 Add functionality to the Modal
 Rearange quotes layout
+ 

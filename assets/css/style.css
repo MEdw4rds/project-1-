@@ -1,25 +1,22 @@
-/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Syne:wght@400..800&display=swap');
 
-/* Default Overrides */
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #fafafa;
     font-family: "Inter", sans-serif;
-    background: linear-gradient(28deg, rgba(252,176,161,1) 0%, rgba(216,153,193,1) 24%, rgba(0,175,235,1) 100%);
+    background: linear-gradient(28deg, rgba(252, 176, 161, 1) 0%, rgba(216, 153, 193, 1) 24%, rgba(0, 175, 235, 1) 100%);
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: "Syne",sans-serif;
+    font-family: "Syne", sans-serif;
 }
 
 
-/* Color Override */
 .bg-color-navbar {
     background-color: #5ea5d9;
 }
@@ -37,8 +34,6 @@ h4 {
 }
 
 
-/* Buttons */
-
 .btn--color-blue {
     background-color: #165B83;
     color: #fff;
@@ -54,7 +49,6 @@ h4 {
 }
 
 
-/* Nav */
 .site-wide-alert {
     margin: 0;
     padding-right: 50px;
@@ -66,10 +60,6 @@ h4 {
     padding: 0;
 }
 
-/* Headers */
-
-
-/* Page Headers */
 
 .headerWrap {
     text-align: center;
@@ -101,7 +91,7 @@ h4 {
 }
 
 
-/* Jumbotron */
+
 
 .jumbotron-container {
     height: 75vh;
@@ -141,9 +131,6 @@ h4 {
 
 
 
-
-/* Cards */
-
 .card-container {
     margin: 50px 0;
 }
@@ -162,7 +149,6 @@ h4 {
 
 
 
-/* Quotes */
 
 .quotes-container {
     width: 100%;
@@ -181,7 +167,6 @@ h4 {
     margin-right: 15px;
 }
 
-/* Divider */
 .block-divider {
     width: 75px;
     height: 5px;
@@ -197,7 +182,6 @@ h4 {
     padding-bottom: 75px;
 }
 
-/* Footer */
 #socials {
     padding: 20px 0;
     font-size: 160%;
@@ -211,22 +195,20 @@ h4 {
     color: #002238;
 }
 
-.footer-modal { 
+.footer-modal {
     margin: auto;
 }
 
 
 
 
-/* Media Queries */
-
 @media screen and (min-width: 0px) {
-    
+
     header {
         margin-top: 40px;
     }
 
-    #jumbo-text{
+    #jumbo-text {
         width: 100%;
         position: absolute;
         left: 0px;
@@ -234,7 +216,7 @@ h4 {
         margin: 0;
     }
 
-    .card{
+    .card {
         font-size: 14px;
         min-width: 250px;
     }
@@ -243,6 +225,7 @@ h4 {
         font-size: 20px;
         padding-bottom: 5px;
     }
+
     .card a {
         font-size: 150%;
     }
@@ -250,21 +233,21 @@ h4 {
     .card a i {
         font-size: 150%;
     }
-    
+
     .quote {
         display: flex;
         margin: 20px auto;
         max-width: 600px;
         font-size: 16px;
     }
-    
+
     .quote img {
         margin-right: 15px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    #jumbo-text{
+    #jumbo-text {
         width: 60%;
         position: absolute;
         left: 30px;
@@ -274,10 +257,10 @@ h4 {
 
     #jumbo-text h1 {
         font-size: 50px;
-        
+
     }
 
-    .card{
+    .card {
         min-width: 300px;
         font-size: 18px;
     }
@@ -286,6 +269,7 @@ h4 {
         font-size: 22px;
         padding-bottom: 5px;
     }
+
     .card a {
         font-size: 150%;
     }
@@ -297,8 +281,7 @@ h4 {
 }
 
 @media screen and (min-width: 992px) {
-    
-    header{
+    header {
         margin-top: 80px;
     }
 
@@ -319,12 +302,12 @@ h4 {
     .nav-link {
         font-size: 20px;
     }
-    
-    #jumbo-text{
+
+    #jumbo-text {
         width: 40%;
     }
 
-    .card{
+    .card {
         min-width: 400px;
         max-width: 800px;
         font-size: 22px;
@@ -354,7 +337,7 @@ h4 {
 }
 
 @media screen and (min-width: 1500px) {
-    #jumbo-text{
+    #jumbo-text {
         width: 30%;
         position: absolute;
         left: 50px;
@@ -371,7 +354,7 @@ h4 {
         font-weight: 800;
     }
 
-    .quote-text p { 
+    .quote-text p {
         font-size: 140%;
     }
 
@@ -380,7 +363,7 @@ h4 {
         margin: 20px auto;
         max-width: 800px;
     }
-    
+
     .quote img {
         margin-right: 15px;
     }
