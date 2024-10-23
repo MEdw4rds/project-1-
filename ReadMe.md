@@ -102,10 +102,10 @@ I mostly used AI for the content of the page as I'm not the best with words I di
 ## Reflection on Development Process
 
 ### Successes
-It writes nice short paragraphs.
+It went rather smoothly I had no issues in deploying and using it to fix errors without having to change the code completely is very helpful.
 
 ### Challenges
-Trying to describe what I want from it.
+Figuring out what needs to be targeted to position certain elements is difficult.
 
 ### Final Thoughts
 It was just a fun project that I went about focusing on what was asked of me rather than what I thought I could do.
